@@ -9,6 +9,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
             <header className={`main-header header-style-four ${scroll ? "fixed-header" : ""}`}>
                 {/* Header Top */}
                 
+
                 {/* Header lower*/}
             <div className="header-lower">
             <div className="outer-container">
@@ -28,12 +29,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     </div>
                     </nav>
                 </div>
-                <ul className="menu-right-content clearfix">
-                    <li className="search-box-outer search-toggler"onClick={handlePopup}>
-                    <i className="icon-8"></i>
-                    </li>
-                    <li><Link href="index-4"><i className="icon-31"></i></Link></li>
-                </ul>
+                <div className="btn-box">
+            <Link href="index-2" className="theme-btn btn-one"><span>Appointment</span></Link>
+          </div>
                 </div>
             </div>
             </div> 
@@ -51,12 +49,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
             </div>
         </nav>
           </div>
-          <ul className="menu-right-content clearfix">
-            <li className="search-box-outer search-toggler" onClick={handlePopup}>
-              <i className="icon-8"></i>
-            </li>
-            <li><Link href="index-4"><i className="icon-31"></i></Link></li>
-          </ul>
+         <div className="btn-box">
+            <Link href="index-2" className="theme-btn btn-one"><span>Appointment</span></Link>
+          </div>
         </div>
       </div>
     </div> 
