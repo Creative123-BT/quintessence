@@ -59,12 +59,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -78,12 +78,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -97,12 +97,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -116,12 +116,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -135,12 +135,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -154,12 +154,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
@@ -173,12 +173,12 @@ export default function Coaching() {
                         </div>
                         <div className="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                         <div className="overlay-content">
-                            <h3><a href="coaching-details-4">Gre Coaching</a></h3>
+                            <h3><a href="/">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div className="link"><Link href="coaching-details-4"><i className="icon-9"></i></Link></div>
+                            <div className="link"><Link href="/"><i className="icon-9"></i></Link></div>
                         </div>
                     </div>
                 </div>
