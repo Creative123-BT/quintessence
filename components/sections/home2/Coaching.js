@@ -63,7 +63,7 @@ export default function Coaching() {
                 <div className="more-content">
                     <h5>Assisting with visa preparation for <Link href="index-2">eligibility exams</Link> is a service offered.</h5>
                     <div className="btn-box">
-                        <Link href="index-2" className="theme-btn btn-one"><span>More Details</span></Link>
+                        <Link href="/" className="theme-btn btn-one"><span>More Details</span></Link>
                     </div>
                 </div>
       </div>

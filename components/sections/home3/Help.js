@@ -22,7 +22,7 @@ export default function Help() {
                   <div className="icon mb_18"><i className="icon-42"></i></div>
                   <span className="count-text">01</span>
                 </div>
-                <h3><Link href="index-3">Fill In The <br />Required Form</Link></h3>
+                <h3><Link href="/">Fill In The <br />Required Form</Link></h3>
                 <p>Equaly blame belongs those fail their all duty through weak shrinking.</p>
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function Help() {
                   <span className="count-text">02</span>
                   <div className="icon mt_18"><i className="icon-43"></i></div>
                 </div>
-                <h3><Link href="index-3">Submit All Your <br />Attested Documents</Link></h3>
+                <h3><Link href="">Submit All Your <br />Attested Documents</Link></h3>
                 <p>Equaly blame belongs those fail their all duty through weak shrinking.</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Help() {
                   <div className="icon mb_13"><i className="icon-44"></i></div>
                   <span className="count-text">03</span>
                 </div>
-                <h3><Link href="index-3">Get Ready To <br />Receive your Visa</Link></h3>
+                <h3><Link href="/">Get Ready To <br />Receive your Visa</Link></h3>
                 <p>Equaly blame belongs those fail their all duty through weak shrinking.</p>
               </div>
             </div>
