@@ -8,6 +8,7 @@ import Dream from "@/components/sections/home1/Dream"
 import Coaching from "@/components/sections/home2/Coaching"
 import Chooseus from "@/components/sections/home1/Chooseus"
 import Help from "@/components/sections/home3/Help"
+import Service from "@/components/sections/home1/Coaching"
 import Team from "@/components/sections/home1/Team"
 import Education from "@/components/sections/home1/Education"
 import Passport from "@/components/sections/home1/Passport"
@@ -23,12 +24,13 @@ export default function Home() {
             <Layout headerStyle={3} footerStyle={1}>
                 <Banner />
                 <About />
-                <Visa />
+                <Service />
+                {/* <Visa /> */}
                 {/* <Features /> */}
                 {/* <Dream /> */}
                 <Countries />
                 <Coaching />
-                <Chooseus />
+                {/* <Chooseus /> */}
                 {/* <Team /> */}
                 {/* <Education /> */}
                 {/* <Passport /> */}

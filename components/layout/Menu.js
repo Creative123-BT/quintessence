@@ -14,7 +14,7 @@ export default function Menu() {
             </ul> */}
 
             <ul className="navigation clearfix">
-                <li className="dropdown"><Link href="/">Home</Link>
+                {/* <li className="dropdown"><Link href="/">Home</Link>
                     <ul>
                         <li><Link href="/">Home Page 01</Link></li>
                         <li><Link href="/index-2">Home Page 02</Link></li>
@@ -62,8 +62,8 @@ export default function Menu() {
                                 <li><Link href="/countries-details-6">Australia</Link></li>      
                         
                     </ul>
-                </li>
-                <li className="dropdown"><Link href="/">Visa</Link>
+                </li> */}
+                {/* <li className="dropdown"><Link href="/">Visa</Link>
                     <ul>       
                         <li><Link href="/visa">Visa Overview</Link></li>
                         <li><Link href="/visa-details">Business Visa</Link></li>
@@ -73,18 +73,23 @@ export default function Menu() {
                         <li><Link href="/visa-details-5">Spouse/Family Visas</Link></li>
                         <li><Link href="/visa-details-6">Tourist Visas</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 {/* Projects */}
                
                 {/* Blog */}
-                <li className="dropdown"><Link href="/">Blog</Link>
+                {/* <li className="dropdown"><Link href="/">Blog</Link>
                     <ul>
                         <li><Link href="/blog">Blog</Link></li>
                         <li><Link href="/blog-details">Blog Details</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 {/* Contact */}
-                <li><Link href="/contact">Contact Us</Link></li>
+
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about-us">About Us</Link></li>
+                <li><Link href="/">Study Abroad</Link></li>
+                <li><Link href="/">Test Preparation</Link></li>
+                <li><Link href="/">Contact Us</Link></li>
             </ul>
 
         </>

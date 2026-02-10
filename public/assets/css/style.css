@@ -104,10 +104,10 @@
 
 
 :root{
-  --main-color: #032B66;
-  --secondary-color: #5E789C;
+  --main-color: #1a2737;
+  --secondary-color: #223449;
   --text-color: #888888;
-  --title-color: #032B66;
+  --title-color: #223449;
   --white-color: #ffffff;
 
 }
@@ -409,17 +409,18 @@ img {
   display: inline-block;
   overflow: hidden;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   font-weight: 500;
   text-align: center;
-  padding: 20.5px 57px;
+  padding: 15px 30px;
   text-transform: capitalize;
   font-family: var(--heebo);
   color: var(--white-color) !important;
   background: var(--secondary-color);
   z-index: 1;
   transition: all 500ms ease;
+  border-radius: 50px;
 }
 
 .theme-btn span{
@@ -1034,7 +1035,7 @@ img {
 }
 
 .sticky-header .outer-box .logo-box{
-  max-width: 170px;
+  max-width: 190px;
 }
 
 
@@ -1080,7 +1081,7 @@ img {
   text-align:center;
   font-size:16px;
   line-height:30px;
-  padding: 26px 0px;
+  padding: 15px 0px;
   font-weight:500;
   font-family: var(--heebo);
   opacity:1;
@@ -1847,6 +1848,11 @@ div#mCSB_1_container{
   margin-bottom: 22px;
 }
 
+/* .main-footer .logo-widget .footer-logo img{
+  max-width: 150px;
+  height: auto;
+} */
+
 .main-footer .logo-widget .text p{
   color: var(--white-color);
 }
@@ -2259,7 +2265,7 @@ div#mCSB_1_container{
 .header-style-four .header-lower{
   position: absolute;
   left: 0px;
-  top: 50px;
+  /* top: 50px; */
   width: 100%;
   padding: 0px 130px;
   background: transparent;
@@ -2275,6 +2281,11 @@ div#mCSB_1_container{
 .header-style-four .header-lower .logo-box{
   margin-right: 0px;
   padding: 0px;
+}
+
+.header-style-four .header-lower .logo-box img{
+  max-width: 320px;
+  height: auto;
 }
 
 .header-style-four .header-lower .menu-area{

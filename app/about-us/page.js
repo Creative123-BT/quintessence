@@ -28,7 +28,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="About Us">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
                 <section className="about-style-three about-page p_relative">
       <div className="pattern-layer">
@@ -128,8 +128,71 @@ export default function Home() {
                   </div>
                 </section>
                     {/* feature-section end */}
+
+                                       {/* chooseus-section */}
+                     <section className="chooseus-section p_relative">
+                      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-71.png)' }}></div>
+                      <div className="auto-container">
+                        <div className="sec-title centred mb_60">
+                          <span className="sub-title">Why Choose Us</span>
+                          <h2>Offer custom-made services that <br />our customer needs.</h2>
+                        </div>
+                        <div className="row clearfix">
+                          {/* Repeat for each chooseus block */}
+                          <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
+                            <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                              <div className="inner-box">
+                                <div className="icon-box"><img src="assets/images/icons/icon-1.png" alt="" /></div>
+                                <h3><Link href="/">Direct Interviews</Link></h3>
+                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                <div className="link-btn">
+                                  <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
+                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="icon-box"><img src="assets/images/icons/icon-2.png" alt="" /></div>
+                                <h3><Link href="/">Faster Processing</Link></h3>
+                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                <div className="link-btn">
+                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
+                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                <h3><Link href="/">Visa Assistance</Link></h3>
+                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                <div className="link-btn">
+                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
+                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="icon-box"><img src="assets/images/icons/icon-4.png" alt="" /></div>
+                                <h3><Link href="/">Cost-Effective</Link></h3>
+                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                <div className="link-btn">
+                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                      </div>
+                    </section>
+                {/* chooseus-section */}
                 {/* country*/}
-                <section className="countries-style-three alternat-2 sec-pad">
+                {/* <section className="countries-style-three alternat-2 sec-pad">
             <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-63.png)' }}></div>
             <div className="auto-container">
                 <div className="sec-title mb_60 centred">
@@ -359,7 +422,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-                 </section>
+                 </section> */}
                 {/* country end */}
                     {/* Country 1*/}
                     <section className="countries-style-five p_relative">
@@ -430,64 +493,58 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                        </div>
-                      </div>
-                    </section>
-                    {/* country 1 end*/}
-                     {/* chooseus-section */}
-                     <section className="chooseus-section p_relative">
-                      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-71.png)' }}></div>
-                      <div className="auto-container">
-                        <div className="sec-title centred mb_60">
-                          <span className="sub-title">Why Choose Us</span>
-                          <h2>Offer custom-made services that <br />our customer needs.</h2>
-                        </div>
-                        <div className="row clearfix">
-                          {/* Repeat for each chooseus block */}
-                          <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
-                            <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                       <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
+                            <div className="countries-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                               <div className="inner-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-1.png" alt="" /></div>
-                                <h3><Link href="/">Direct Interviews</Link></h3>
-                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
-                                <div className="link-btn">
-                                  <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                <div className="image-box">
+                                  <figure className="image"><img src="assets/images/resource/countries-9.jpg" alt="" /></figure>
+                                  <div className="flag"><img src="assets/images/icons/flag-3.png" alt="" /></div>
+                                </div>
+                                <div className="lower-content">
+                                  <h5><Link href="index-4">China <span>Visa</span></Link></h5>
+                                  <span className="text">Avenue, Jersey</span>
                                 </div>
                               </div>
                             </div>
                           </div>
-                          <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
-                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                          <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
+                        <div className="countries-block-five wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="inner-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-2.png" alt="" /></div>
-                                <h3><Link href="/">Faster Processing</Link></h3>
-                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
-                                <div className="link-btn">
-                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                <div className="image-box">
+                                    <figure className="image"><img src="assets/images/resource/countries-10.jpg" alt="" /></figure>
+                                    <div className="flag"><img src="assets/images/icons/flag-5.png" alt="" /></div>
+                                </div>
+                                <div className="lower-content">
+                                    <h5><Link href="index-4">United Kingdom <span>Visa</span></Link></h5>
+                                    <span className="text">Asheville</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
-                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
+                        <div className="countries-block-five wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="inner-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
-                                <h3><Link href="/">Visa Assistance</Link></h3>
-                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
-                                <div className="link-btn">
-                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                <div className="image-box">
+                                    <figure className="image"><img src="assets/images/resource/countries-11.jpg" alt="" /></figure>
+                                    <div className="flag"><img src="assets/images/icons/flag-8.png" alt="" /></div>
+                                </div>
+                                <div className="lower-content">
+                                    <h5><Link href="index-4">Brazil <span>Visa</span></Link></h5>
+                                    <span className="text">Amsterdam</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 chooseus-block">
-                        <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
+                        <div className="countries-block-five wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="inner-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-4.png" alt="" /></div>
-                                <h3><Link href="/">Cost-Effective</Link></h3>
-                                <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
-                                <div className="link-btn">
-                                    <Link href="/"><span>Read More</span><i className="icon-9"></i></Link>
+                                <div className="image-box">
+                                    <figure className="image"><img src="assets/images/resource/countries-12.jpg" alt="" /></figure>
+                                    <div className="flag"><img src="assets/images/icons/flag-4.png" alt="" /></div>
+                                </div>
+                                <div className="lower-content">
+                                    <h5><Link href="index-4">Australia <span>Visa</span></Link></h5>
+                                    <span className="text">Queensland</span>
                                 </div>
                             </div>
                         </div>
@@ -495,7 +552,8 @@ export default function Home() {
                         </div>
                       </div>
                     </section>
-                {/* chooseus-section */}
+                    {/* country 1 end*/}
+  
                 {/* clients-section */}
                 <section className="clients-section about-page alternat-2 p_relative">
                     <div className="auto-container">
@@ -513,7 +571,7 @@ export default function Home() {
                   </section>
                          {/* clients-section */}
                 {/* team-section */}
-                <section className="team-section alternat-2 p_relative centred">
+                {/* <section className="team-section alternat-2 p_relative centred">
                   <div className="pattern-layer">
                     <div className="pattern-4" style={{ backgroundImage: "url(assets/images/shape/shape-30.png)" }}></div>
                     <div className="pattern-5" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
@@ -524,13 +582,11 @@ export default function Home() {
                       <h2>Our Team at Your Service</h2>
                     </div>
                     <div className="row clearfix">
-                      {/* Repeat for each team member */}
                       <div className="col-lg-3 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                           <div className="inner-box">
                             <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
                             <div className="lower-content">
-                              {/* Add social links */}
                               <div className="share-box">
                                 <div className="share-icon"><i className="icon-26"></i></div>
                                 <ul className="social-links clearfix">
@@ -539,7 +595,6 @@ export default function Home() {
                                   <li><Link href="/"><i className="icon-4"></i></Link></li>
                                 </ul>
                               </div>
-                              {/* Team member details */}
                               <h3><Link href="team-details">Roman Frederick</Link></h3>
                               <span className="designation">Regional Manager</span>
                             </div>
@@ -605,7 +660,7 @@ export default function Home() {
                     </div>
                     </div>
                   </div>
-                </section>
+                </section> */}
                 {/* team-section */}
 
             </Layout>

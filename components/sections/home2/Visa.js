@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Visa() {
   return (
-    <section className="visa-style-two pt_140 pb_80">
+    <section className="visa-style-two  pb_80">
       <div className="auto-container">
         <div className="sec-title centred mb_50">
           <span className="sub-title">Visa Categories</span>
