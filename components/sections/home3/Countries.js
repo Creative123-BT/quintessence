@@ -9,7 +9,8 @@ export default function Countries() {
       <div className="auto-container">
         <div className="sec-title centred mb_60">
           <span className="sub-title">Countries We Offer</span>
-          <h2>Immigration Officials approvals for foreign <br />citizens can vary by country.</h2>
+          <h2>Global Focus
+Your Gateway to <br /> Top Study Abroad Destinations</h2>
         </div>
                     <div className="content-box">
                         {/*Theme Carousel*/}

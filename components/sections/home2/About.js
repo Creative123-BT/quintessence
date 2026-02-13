@@ -19,7 +19,8 @@ export default function About()  {
                             <div className="content-box">
                                 <div className="sec-title mb_25">
                                     <span className="sub-title">About our Agency</span>
-                                    <h2>Leading firm for immigration consulting services.</h2>
+                                    <h2> Brand-Focused
+About Quintessence Study Abroad</h2>
                                 </div>
                                 <div className="text mb_35">
                                     <h5>Since 1985, Reliable Service has been servicing its clients...</h5>

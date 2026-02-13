@@ -59,13 +59,14 @@ export default function News() {
         <>
            <section className="news-section sec-pad">
               <div className="pattern-layer">
-                <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}></div>
-                <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-24.png)" }}></div>
+                {/* <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}></div> */}
+                {/* <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-24.png)" }}></div> */}
               </div>
               <div className="auto-container">
                 <div className="sec-title centred mb_50">
                   <span className="sub-title">Article</span>
-                  <h2>World Immigration News & Updates</h2>
+                  <h2>Knowledge Hub
+Study Abroad <br /> Insights & Resources</h2>
                 </div>
                 <div className="row clearfix">
                   <div className="col-lg-4 col-md-6 col-sm-12 news-block">

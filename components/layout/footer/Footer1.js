@@ -7,13 +7,18 @@ export default function Footer1() {
         <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}></div>
         <div className="auto-container">
           <div className="widget-section">
-            <div className="row clearfix">
-              <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
+            <div className="row clearfix d-flex align-items-center justify-content-between">
+              <div className="col-lg-9 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo"><Link href="/"><img src="assets/images/footer-logo.png" alt="" /></Link></figure>
                   <div className="text mb_25">
-                    <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi.</p>
+                    <p>Your trusted partner in shaping global academic futures</p>
                   </div>
+
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div className="footer-widget logo-widget">
                   <ul className="info clearfix mb_30">
                     <li><i className="icon-29"></i><Link href="tel:88123456987231">+88 12345 6987 231</Link></li>
                     <li><i className="icon-1"></i><Link href="mailto:info@example.com">info@example.com</Link></li>
@@ -27,93 +32,25 @@ export default function Footer1() {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget links-widget">
-                  <div className="widget-title">
-                    <h3>Explore</h3>
-                  </div>
-                  <div className="widget-content">
-                    <ul className="links-list clearfix">
-                      <li><Link href="/">Employment & Jobs</Link></li>
-                      <li><Link href="/">Government & Elections</Link></li>
-                      <li><Link href="/">Real Estate & Buildings</Link></li>
-                      <li><Link href="/">Health & Medical</Link></li>
-                      <li><Link href="/">Transport & Traffic</Link></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget links-widget">
-                  <div className="widget-title">
-                    <h3>Useful Links</h3>
-                  </div>
-                  <div className="widget-content">
-                    <ul className="links-list clearfix">
-                      <li><Link href="/">Administration</Link></li>
-                      <li><Link href="/">Fire Services</Link></li>
-                      <li><Link href="/">Business</Link></li>
-                      <li><Link href="/">Taxation</Link></li>
-                      <li><Link href="/">Circular’s And Go’s</Link></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget gallery-widget">
-                  <div className="widget-title">
-                    <h3>Recent Projects</h3>
-                  </div>
-                  <div className="widget-content">
-                    <ul className="image-list clearfix">
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-1.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-1.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-2.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-2.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-3.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-3.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-4.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-4.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-5.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-5.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                      <li>
-                        <figure className="image-box">
-                          <img src="assets/images/resource/footer-6.jpg" alt="" />
-                          <Link href="assets/images/resource/footer-6.jpg" className="lightbox-image" data-fancybox="gallery"><i className="icon-30"></i></Link>
-                        </figure>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div> */}
+
+         
+
             </div>
           </div>
+
           <div className="footer-bottom">
             <div className="copyright">
               <p>
-                Copyright By &copy; <Link href="/">Quintessence</Link> – {new Date().getFullYear()}
+                Copyright © {new Date().getFullYear()} Quintessence Study Abroad. All Rights Reserved.
               </p>
+            </div>
 
+            <div className="legal-links">
+              <a href="/">Privacy Policy</a>
+              <span className="separator">|</span>
+              <a href="/">Terms & Conditions</a>
+              <span className="separator">|</span>
+              <a href="/">Cookie Policy</a>
             </div>
           </div>
         </div>

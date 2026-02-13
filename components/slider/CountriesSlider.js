@@ -62,8 +62,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-13.png" alt="" /></div>
               <h3><Link href="index-3">United Kingdom</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Working Visa, Job Visa</span>
             </div>
             </div>
                 </SwiperSlide>
@@ -73,8 +71,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-14.png" alt="" /></div>
               <h3><Link href="index-3">Bahamas</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Education Visa, Only System</span>
             </div>
           </div>
                 </SwiperSlide>
@@ -84,8 +80,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-15.png" alt="" /></div>
               <h3><Link href="index-3">Canada</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Resident Visa Job Visa</span>
             </div>
           </div>
                 </SwiperSlide>
@@ -95,8 +89,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-16.png" alt="" /></div>
               <h3><Link href="index-3">Brazil</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Student Visa & Admission, Visitor Visa</span>
             </div>
           </div>
                 </SwiperSlide>
@@ -106,8 +98,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-13.png" alt="" /></div>
               <h3><Link href="index-3">United Kingdom</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Working Visa, Job Visa</span>
             </div>
             </div>
                 </SwiperSlide>
@@ -117,8 +107,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-14.png" alt="" /></div>
               <h3><Link href="index-3">Bahamas</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Education Visa, Only System</span>
             </div>
           </div>
                 </SwiperSlide>
@@ -128,8 +116,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-15.png" alt="" /></div>
               <h3><Link href="index-3">Canada</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Resident Visa Job Visa</span>
             </div>
           </div>
                 </SwiperSlide>
@@ -139,8 +125,6 @@ export default function CountriesSlider() {
               <div className="flag"><img src="assets/images/icons/flag-16.png" alt="" /></div>
               <h3><Link href="index-3">Brazil</Link></h3>
               <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget</p>
-              <div className="text">Visa Type :</div>
-              <span className="designation">Student Visa & Admission, Visitor Visa</span>
             </div>
           </div>
                 </SwiperSlide>
