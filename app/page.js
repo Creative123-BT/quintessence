@@ -15,6 +15,7 @@ import Passport from "@/components/sections/home1/Passport"
 import Clients from "@/components/sections/home1/Clients"
 import Visa from "@/components/sections/home2/Visa"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
                 <Clients />
                 <News />
                 <SpeedInsights />
+                   <Analytics />
             </Layout>
         </>
     )
