@@ -99,7 +99,7 @@
 /** contact-style-two **/
 
 .contact-style-two{
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 
 .contact-style-two .content-box{
@@ -133,14 +133,14 @@
 
 .contact-style-two .content-box h3{
   display: block;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 34px;
   font-weight: 700;
-  margin-bottom: 16px;
+  /* margin-bottom: 12px; */
 }
 
 .contact-style-two .content-box .location-box p{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contact-style-two .content-box .inner-box .single-item .icon-box{
@@ -154,7 +154,7 @@
 .contact-style-two .content-box .inner-box .single-item .info-list li{
   position: relative;
   display: block;
-  margin-bottom: 19px;
+  margin-bottom: 16px;
 }
 
 .contact-style-two .content-box .inner-box .single-item .info-list li:last-child{
@@ -171,14 +171,14 @@
 
 .contact-style-two .content-box .inner-box .single-item .info-list li p{
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 35px;
   font-weight: 500;
 }
 
 .contact-style-two .content-box .inner-box .single-item .info-list li p a{
   display: inline-block;
-  color: var(--font-color);
+  color: var(--text-color);
 }
 
 .contact-style-two .content-box .inner-box .single-item .info-list li p a:hover{
@@ -203,6 +203,7 @@
 
 .contact-style-two .form-inner .form-group input[type='text'],
 .contact-style-two .form-inner .form-group input[type='email'],
+.contact-style-two .form-inner .form-group select,
 .contact-style-two .form-inner .form-group textarea{
   position: relative;
   display: block;
@@ -216,13 +217,26 @@
   transition: all 500ms ease;
 }
 
+.contact-style-two .form-inner .form-group select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, var(--main-color) 50%), linear-gradient(135deg, var(--main-color) 50%, transparent 50%);
+  background-position: calc(100% - 26px) calc(50% - 3px), calc(100% - 20px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+  padding-right: 44px;
+}
+
 .contact-style-two .form-inner .form-group textarea{
   height: 200px;
   resize: none;
-  padding-top: 20px;
+  padding-top: 20px; 
 }
 
 .contact-style-two .form-inner .form-group input:focus,
+.contact-style-two .form-inner .form-group select:focus,
 .contact-style-two .form-inner .form-group textarea:focus{
   border-color: var(--main-color);
 }
@@ -233,7 +247,7 @@
 
 .google-map-section #contact-google-map{
   width: 100%;
-  height: 550px;
+  height: 350px;
 }
 
 

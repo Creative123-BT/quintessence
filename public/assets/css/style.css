@@ -108,17 +108,19 @@
    --text-color: #888888;
    --title-color: #223449;
    --white-color: #ffffff;
+   --bs-font-sans-serif: var(--heebo);
+   --bs-body-font-family: var(--heebo);
 
  }
 
 
- body {
-   font-size: 16px;
-   color: var(--text-color);
-   line-height: 29px;
-   font-weight: 400;
-   background: #ffffff;
-   font-family: var(--heebo);
+body {
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 27px;
+  font-weight: 400;
+  background: #ffffff;
+  font-family: var(--heebo);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center top;
@@ -481,9 +483,29 @@
    background: var(--main-color);
  }
 
- .theme-btn.btn-two:hover {
-   box-shadow: inset 0 0 0 2em var(--secondary-color);
- }
+.theme-btn.btn-two:hover {
+  box-shadow: inset 0 0 0 2em var(--secondary-color);
+}
+
+@media (max-width: 991px) {
+  .theme-btn {
+    padding: 13px 24px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .theme-btn {
+    padding: 11px 20px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .theme-btn span {
+    padding-right: 16px;
+  }
+}
 
 
 
@@ -548,16 +570,16 @@
    z-index: 99;
    width: 50px;
    height: 50px;
-   background: var(--theme-color);
+   background: var(--main-color);
    text-align: center;
-   color: #eb0a0a;
+   color: #fff;
    line-height: 50px;
    border-radius: 50%;
  }
 
  .scroll-to-top:hover {
-   color: #fff;
-   background: #eb0a0a;
+   color: var(--main-color);
+   background: #fff200;
  }
 
  .scroll-to-top .visible {
@@ -2547,7 +2569,7 @@
    line-height: 30px;
    font-size: 20px;
    color: #808080;
-   font-family: 'Maven_Pro', sans-serif;
+   font-family: var(--maven);
    border: none;
    font-weight: 400;
    border-radius: 0px;
@@ -8200,4 +8222,64 @@
   .main-footer .footer-bottom .legal-links a {
     font-size: 13px;
   }
+}
+
+/* Responsive Typography Normalization */
+.handle-preloader .animation-preloader .txt-loading .letters-loading {
+  font-size: clamp(2rem, 7vw, 3.75rem);
+  line-height: 1.1;
+}
+
+.sec-title h2 {
+  font-size: clamp(1.625rem, 3.5vw, 2.25rem);
+  line-height: 1.25;
+}
+
+.page-title .content-box h1 {
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  line-height: 1.2;
+}
+
+.banner-carousel .content-box h2,
+.banner-style-two .content-box h2 {
+  font-size: clamp(2rem, 6vw, 4.25rem);
+  line-height: 1.1;
+}
+
+.banner-style-three .content-box h2 {
+  font-size: clamp(1.875rem, 5.5vw, 3.75rem);
+  line-height: 1.12;
+}
+
+.banner-style-four .content-box h2 {
+  font-size: clamp(1.625rem, 4.5vw, 2.875rem);
+  line-height: 1.18;
+}
+
+.content_block_four .content-box .funfact-block .count-outer {
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  line-height: 1.2;
+}
+
+.image_block_two .image-box .text-box h2 {
+  font-size: clamp(2.25rem, 8vw, 5rem);
+  line-height: 1.05;
+}
+
+.contact-style-two .content-box .location-box .icon-box,
+.contact-style-two .content-box .inner-box .single-item .icon-box {
+  font-size: clamp(2.25rem, 7vw, 3rem);
+}
+
+.coaching-block-three .inner-box .content-box .icon-box {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+.feature-block-one .inner-box .icon-box,
+.feature-block-two .inner-box .icon-box {
+  font-size: clamp(1.75rem, 6vw, 3.125rem);
+}
+
+.help-section .single-item .inner-box .icon-box .icon {
+  font-size: clamp(2rem, 7vw, 3.5rem);
 }

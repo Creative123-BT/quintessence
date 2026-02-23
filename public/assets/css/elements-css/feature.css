@@ -63,18 +63,18 @@
 }
 
 .feature-section.alternat-3 .inner-container{
-  background: #032761;
+  background: #fff200;
   margin-bottom: 0px;
   margin-top: -215px;
 }
 
 .feature-section.alternat-3 .feature-block-one .inner-box .icon-box{
-  color: var(--white-color);
+  color: var( --main-color);
 }
 
 .feature-section.alternat-3 .feature-block-one .inner-box h3 a,
 .feature-section.alternat-3 .feature-block-one .inner-box p{
-  color: var(--white-color);
+  color: var( --main-color);
 }
 
 .feature-section.alternat-3 .feature-block-one .inner-box h3 a:hover{
