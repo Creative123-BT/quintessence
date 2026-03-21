@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import Link from "next/link";
 import Layout from "@/components/layout/Layout"
 
@@ -120,7 +120,7 @@ export default function Home() {
                                                         <div className="text">
                                                             <h3>Morente reiterates rule on proper wearing of uniform</h3>
                                                             <p>In a memorandum issued on Wednesday, Morente stated that the BI has been receiving complaints about officials and employees who are not wearing their complete uniform during their tour of duty.</p>
-                                                            <p>“+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,” said Morente. “We have a BI CARES project that reinforces our commitment to better public service,” he added. The BI CARES project</p>
+                                                            <p>ÔÇ£+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,ÔÇØ said Morente. ÔÇ£We have a BI CARES project that reinforces our commitment to better public service,ÔÇØ he added. The BI CARES project</p>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 col-md-6 col-sm-12 image-column">
@@ -128,7 +128,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                                 <div className="text mt_20">
-                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. “It is high time that law enforcement be professionalized,” said Morente. “We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,” he added.</p>
+                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. ÔÇ£It is high time that law enforcement be professionalized,ÔÇØ said Morente. ÔÇ£We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,ÔÇØ he added.</p>
                                                 </div>
                                             </div>
                                             <div className="content-two pb_30">
@@ -197,7 +197,7 @@ export default function Home() {
                                                 <div className="row clearfix">
                                                     <div className="col-lg-7 col-md-6 col-sm-12 map-column">
                                                         <div className="map-inner p_relative d_block">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kß╗│!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                                                
                                                         </div>
                                                     </div>
@@ -223,7 +223,7 @@ export default function Home() {
                                                         <div className="text">
                                                             <h3>Morente reiterates rule on proper wearing of uniform</h3>
                                                             <p>In a memorandum issued on Wednesday, Morente stated that the BI has been receiving complaints about officials and employees who are not wearing their complete uniform during their tour of duty.</p>
-                                                            <p>“+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,” said Morente. “We have a BI CARES project that reinforces our commitment to better public service,” he added. The BI CARES project</p>
+                                                            <p>ÔÇ£+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,ÔÇØ said Morente. ÔÇ£We have a BI CARES project that reinforces our commitment to better public service,ÔÇØ he added. The BI CARES project</p>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 col-md-6 col-sm-12 image-column">
@@ -231,7 +231,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                                 <div className="text mt_20">
-                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. “It is high time that law enforcement be professionalized,” said Morente. “We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,” he added.</p>
+                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. ÔÇ£It is high time that law enforcement be professionalized,ÔÇØ said Morente. ÔÇ£We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,ÔÇØ he added.</p>
                                                 </div>
                                             </div>
                                             <div className="content-two pb_30">
@@ -300,7 +300,7 @@ export default function Home() {
                                                 <div className="row clearfix">
                                                     <div className="col-lg-7 col-md-6 col-sm-12 map-column">
                                                         <div className="map-inner p_relative d_block">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kß╗│!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                                                
                                                         </div>
                                                     </div>
@@ -326,7 +326,7 @@ export default function Home() {
                                                         <div className="text">
                                                             <h3>Morente reiterates rule on proper wearing of uniform</h3>
                                                             <p>In a memorandum issued on Wednesday, Morente stated that the BI has been receiving complaints about officials and employees who are not wearing their complete uniform during their tour of duty.</p>
-                                                            <p>“+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,” said Morente. “We have a BI CARES project that reinforces our commitment to better public service,” he added. The BI CARES project</p>
+                                                            <p>ÔÇ£+Our immigration officers and employees are expected to be in their complete uniform, <br />with their nameplates and IDs,ÔÇØ said Morente. ÔÇ£We have a BI CARES project that reinforces our commitment to better public service,ÔÇØ he added. The BI CARES project</p>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-5 col-md-6 col-sm-12 image-column">
@@ -334,7 +334,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                                 <div className="text mt_20">
-                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. “It is high time that law enforcement be professionalized,” said Morente. “We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,” he added.</p>
+                                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. ÔÇ£It is high time that law enforcement be professionalized,ÔÇØ said Morente. ÔÇ£We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,ÔÇØ he added.</p>
                                                 </div>
                                             </div>
                                             <div className="content-two pb_30">
@@ -403,7 +403,7 @@ export default function Home() {
                                                 <div className="row clearfix">
                                                     <div className="col-lg-7 col-md-6 col-sm-12 map-column">
                                                         <div className="map-inner p_relative d_block">
-                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kß╗│!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                                                
                                                         </div>
                                                     </div>

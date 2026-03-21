@@ -1,19 +1,14 @@
-
-.faq-section{
+.faq-section {
   position: relative;
 }
 
-.faq-section .sec-title{
-  max-width: 570px;
-}
-
-.faq-section .sec-title p{
+.faq-section .sec-title p {
   margin-top: 21px;
   font-size: 18px;
   color: #07407D;
 }
 
-.faq-section .faq-content h3{
+.faq-section .faq-content h3 {
   position: relative;
   display: block;
   font-size: 24px;
@@ -23,21 +18,21 @@
   margin-bottom: 40px;
 }
 
-.faq-section .accordion-box{
+.faq-section .accordion-box {
   border: 1px solid #E0E0E0;
 }
 
-.faq-section .accordion-box .accordion{
+.faq-section .accordion-box .accordion {
   position: relative;
   display: block;
   border-bottom: 1px solid #E0E0E0;
 }
 
-.faq-section .accordion-box .accordion:last-child{
+.faq-section .accordion-box .accordion:last-child {
   border-bottom: none;
 }
 
-.faq-section .accordion-box .acc-btn{
+.faq-section .accordion-box .acc-btn {
   position: relative;
   display: block;
   padding: 21px 80px 15px 42px;
@@ -45,11 +40,11 @@
   border-bottom: 1px solid transparent;
 }
 
-.faq-section .accordion-box .accordion .acc-btn.active{
+.faq-section .accordion-box .accordion .acc-btn.active {
   border-bottom: 1px solid #E0E0E0;
 }
 
-.faq-section .accordion-box .acc-btn h5{
+.faq-section .accordion-box .acc-btn h5 {
   display: block;
   font-size: 18px;
   line-height: 29px;
@@ -57,7 +52,7 @@
   font-family: var(--heebo);
 }
 
-.faq-section .accordion-box .acc-btn .icon-box{
+.faq-section .accordion-box .acc-btn .icon-box {
   position: absolute;
   display: inline-block;
   top: 18px;
@@ -74,7 +69,7 @@
   transition: all 500ms ease;
 }
 
-.faq-section .accordion-box .acc-btn .icon-box:before{
+.faq-section .accordion-box .acc-btn .icon-box:before {
   position: absolute;
   content: '\e923';
   font-family: 'icomoon';
@@ -82,45 +77,16 @@
   width: 30px;
 }
 
-.faq-section .accordion-box .acc-btn.active .icon-box{
+.faq-section .accordion-box .acc-btn.active .icon-box {
   transform: rotate(45deg);
   background: var(--main-color);
 }
 
-.faq-section .accordion-box .acc-content{
+.faq-section .accordion-box .acc-content {
   position: relative;
   padding: 17px 36px 37px 42px;
 }
 
-.faq-section .accordion-box .acc-content p{
+.faq-section .accordion-box .acc-content p {
   color: #07407D;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

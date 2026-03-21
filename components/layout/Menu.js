@@ -75,7 +75,7 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 {/* Projects */}
-               
+
                 {/* Blog */}
                 {/* <li className="dropdown"><Link href="/">Blog</Link>
                     <ul>
@@ -86,10 +86,9 @@ export default function Menu() {
                 {/* Contact */}
 
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/">About Us</Link></li>
-                <li><Link href="/">Study Abroad</Link></li>
-                <li><Link href="/">Test Preparation</Link></li>
-                <li><Link href="/">Contact Us</Link></li>
+                <li><Link href="/about-us">About Us</Link></li>
+                <li><Link href="/test-preparation">Test Preparation</Link></li>
+                <li><Link href="/contact">Contact Us</Link></li>
             </ul>
 
         </>

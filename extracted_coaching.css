@@ -1,4 +1,4 @@
-
+﻿
 .coaching-details{
   padding: 150px 0px;
 }
@@ -363,82 +363,4 @@
 
 
 
-
-
-/* Premium Hero Section */
-.premium-hero {
-    position: relative;
-    background: #fffbef;
-    padding: 180px 0 120px 0;
-    color: #1a2737;
-    overflow: hidden;
-    border-bottom: 2px solid #fff200;
-}
-.premium-hero:before, .premium-hero:after {
-    display: none !important;
-}
-
-.hero-split {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    text-align: left;
-    position: relative;
-    z-index: 2;
-}
-.hero-text-side {
-    flex: 1.1;
-}
-.hero-img-side {
-    flex: 0.9;
-    position: relative;
-}
-.hero-img-side img {
-    width: 100%;
-    border-radius: 40px;
-    box-shadow: 0 30px 70px rgba(0,0,0,0.08);
-    border: 1px solid #eee;
-}
-
-.hero-content h1 {
-    font-size: 64px;
-    font-weight: 900;
-    color: #1a2737;
-    margin-bottom: 25px;
-    line-height: 1.1;
-    letter-spacing: -2.5px;
-}
-.hero-content p {
-    font-size: 20px;
-    color: #555 !important;
-    margin-bottom: 45px;
-    line-height: 1.8;
-    max-width: 600px;
-}
-.hero-cta { display: flex; justify-content: flex-start; gap: 20px; }
-
-/* Unique Consultation Button Style */
-.premium-hero .hero-cta .btn-bt-consult,
-.btn-bt-consult {
-    display: inline-block !important;
-    background: #fff200 !important;
-    color: #1a2737 !important;
-    padding: 16px 45px !important;
-    border-radius: 50px !important;
-    font-weight: 800 !important;
-    font-size: 16px !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    transition: all 0.4s ease !important;
-    box-shadow: 0 10px 30px rgba(255, 242, 0, 0.2) !important;
-}
-.premium-hero .hero-cta .btn-bt-consult:hover,
-.btn-bt-consult:hover { 
-    background: #1a2737 !important;
-    color: #fff !important;
-    transform: translateY(-5px) !important;
-    box-shadow: 0 15px 35px rgba(26, 39, 55, 0.3) !important;
-}
 

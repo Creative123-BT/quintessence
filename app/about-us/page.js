@@ -30,48 +30,68 @@ export default function Home() {
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
-                <section className="about-style-three about-page p_relative">
+                <section className="about-style-three about-page p_relative" style={{ padding: '100px 0', background: '#fff' }}>
                     <div className="pattern-layer">
                         <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-42.png)' }}></div>
                         <div className="pattern-3" style={{ backgroundImage: 'url(assets/images/shape/shape-69.png)' }}></div>
                     </div>
-                    <figure className="image-layer"><img src="assets/images/resource/men-2.png" alt="" /></figure>
+
                     <div className="auto-container">
-                        <div className="row clearfix">
-                            <div className="col-lg-4 col-md-12 col-sm-12 content-column offset-lg-3">
+                        <div className="row align-items-center">
+                            {/* Improved Image Column - Left Side */}
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div className="image-box p_relative d_block mr_30">
+                                    <figure className="image" style={{
+                                        borderRadius: '20px',
+                                        overflow: 'hidden',
+                                        boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
+                                    }}>
+                                        <img src="assets/images/resource/about-2.jpg" alt="Who we are" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                    </figure>
+                                    <div className="experience-box" style={{
+                                        position: 'absolute',
+                                        left: '-30px',
+                                        bottom: '30px',
+                                        background: '#fff200',
+                                        padding: '30px',
+                                        borderRadius: '15px',
+                                        boxShadow: '0 10px 30px rgba(255,242,0,0.3)',
+                                        zIndex: 2
+                                    }}>
+                                        <h2 style={{ fontSize: '40px', fontWeight: '800', margin: 0, color: '#1a2737' }}>25+</h2>
+                                        <p style={{ margin: 0, fontWeight: '700', textTransform: 'uppercase', fontSize: '12px', letterSpacing: '1px', color: '#1a2737' }}>Years of Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Refined Content Column - Right Side */}
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_six">
-                                    <div className="content-box mr_20">
-                                        <div className="sec-title mb_20">
-                                            <span className="sub-title">Who we are?</span>
-                                            <h2>Leading firm for immigration services.</h2>
+                                    <div className="content-box ml_30">
+                                        <div className="sec-title mb_25">
+                                            <span className="sub-title" style={{ color: '#fff200', fontWeight: '700', letterSpacing: '2px' }}>WHO WE ARE</span>
+                                            <h2 style={{ fontSize: '42px', lineHeight: '52px', fontWeight: '700' }}>Leading firm for <br />immigration services.</h2>
                                         </div>
-                                        <div className="text mb_30">
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus.</p>
+                                        <div className="text mb_35">
+                                            <p style={{ fontSize: '17px', lineHeight: '28px', color: '#666' }}>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum. Porta semper lacus cursus, feugiat primis ultrice area ligula risus auctor tempus feugiat dolor.</p>
                                         </div>
-                                        <div className="inner-box mb_40">
-                                            <div className="single-item">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-13.png" alt="" /></div>
-                                                <h5>Overseas education and study visa consultants.</h5>
+                                        <div className="inner-box mb_45">
+                                            <div className="single-item" style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+                                                <div className="icon-box" style={{ marginRight: '15px', flexShrink: 0 }}>
+                                                    <img src="assets/images/icons/icon-13.png" alt="" style={{ width: '40px' }} />
+                                                </div>
+                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Overseas education and study visa consultants.</h5>
                                             </div>
-                                            <div className="single-item">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-14.png" alt="" /></div>
-                                                <h5>Top-ranked universities guarantee admissions.</h5>
+                                            <div className="single-item" style={{ display: 'flex', alignItems: 'center' }}>
+                                                <div className="icon-box" style={{ marginRight: '15px', flexShrink: 0 }}>
+                                                    <img src="assets/images/icons/icon-14.png" alt="" style={{ width: '40px' }} />
+                                                </div>
+                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Top-ranked universities guarantee admissions.</h5>
                                             </div>
                                         </div>
                                         <div className="btn-box">
                                             <Link href="about" className="theme-btn btn-two"><span>More Details</span></Link>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-5 col-md-12 col-sm-12 image-column">
-                                <div className="image-inner clearfix">
-                                    <div className="image-box">
-                                        <figure className="image"><img src="assets/images/resource/about-3.jpg" alt="" /></figure>
-                                    </div>
-                                    <div className="image-box">
-                                        <figure className="image"><img src="assets/images/resource/about-4.jpg" alt="" /></figure>
-                                        <figure className="image"><img src="assets/images/resource/about-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                             </div>
@@ -127,11 +147,10 @@ export default function Home() {
                 </section>
                 {/* feature-section end */}
 
-             
+
 
                 {/* chooseus-section */}
                 <section className="chooseus-section p_relative">
-                    <div className="pattern-layer"  style={{ backgroundImage: 'url(assets/images/shape/shape-61.png)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title centred mb_60">
                             <span className="sub-title">Why Choose Us</span>
@@ -190,7 +209,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-            
+
                 <section className="countries-style-five p_relative">
                     <div className="pattern-layer">
                         <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-61.png)' }}></div>
@@ -335,96 +354,96 @@ export default function Home() {
                 </section> */}
                 {/* clients-section */}
                 {/* team-section */}
-               <section className="team-section alternat-2 p_relative centred">
-                  <div className="pattern-layer">
-                    <div className="pattern-4" style={{ backgroundImage: "url(assets/images/shape/shape-30.png)" }}></div>
-                    <div className="pattern-5" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
-                  </div>
-                  <div className="auto-container">
-                    <div className="sec-title mb_50 centred">
-                      <span className="sub-title">Expert Team Members</span>
-                      <h2>Our Team at Your Service</h2>
+                <section className="team-section alternat-2 p_relative centred">
+                    <div className="pattern-layer">
+                        <div className="pattern-4" style={{ backgroundImage: "url(assets/images/shape/shape-30.png)" }}></div>
+                        <div className="pattern-5" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
                     </div>
-                    <div className="row clearfix">
-                      <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                          <div className="inner-box">
-                            <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
-                            <div className="lower-content">
-                              <div className="share-box">
-                                <div className="share-icon"><i className="icon-26"></i></div>
-                                <ul className="social-links clearfix">
-                                  <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                  <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                  <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                </ul>
-                              </div>
-                              <h3><Link href="team-details">Roman Frederick</Link></h3>
-                              <span className="designation">Regional Manager</span>
-                            </div>
-                          </div>
+                    <div className="auto-container">
+                        <div className="sec-title mb_50 centred">
+                            <span className="sub-title">Expert Team Members</span>
+                            <h2>Our Team at Your Service</h2>
                         </div>
-                      </div>
-                      <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <div className="share-box">
-                                        <div className="share-icon"><i className="icon-26"></i></div>
-                                        <ul className="social-links clearfix">
-                                            <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        </ul>
+                        <div className="row clearfix">
+                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                        <div className="lower-content">
+                                            <div className="share-box">
+                                                <div className="share-icon"><i className="icon-26"></i></div>
+                                                <ul className="social-links clearfix">
+                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
+                                                </ul>
+                                            </div>
+                                            <h3><Link href="team-details">Roman Frederick</Link></h3>
+                                            <span className="designation">Regional Manager</span>
+                                        </div>
                                     </div>
-                                    <h3><Link href="team-details">Jane Cooper</Link></h3>
-                                    <span className="designation">Medical Assistant</span>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                        <div className="lower-content">
+                                            <div className="share-box">
+                                                <div className="share-icon"><i className="icon-26"></i></div>
+                                                <ul className="social-links clearfix">
+                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
+                                                </ul>
+                                            </div>
+                                            <h3><Link href="team-details">Jane Cooper</Link></h3>
+                                            <span className="designation">Medical Assistant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
+                                        <div className="lower-content">
+                                            <div className="share-box">
+                                                <div className="share-icon"><i className="icon-26"></i></div>
+                                                <ul className="social-links clearfix">
+                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
+                                                </ul>
+                                            </div>
+                                            <h3><Link href="team-details">Esther Howard</Link></h3>
+                                            <span className="designation">President of Sales</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
+                                        <div className="lower-content">
+                                            <div className="share-box">
+                                                <div className="share-icon"><i className="icon-26"></i></div>
+                                                <ul className="social-links clearfix">
+                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
+                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
+                                                </ul>
+                                            </div>
+                                            <h3><Link href="team-details">Jenny Wilson</Link></h3>
+                                            <span className="designation">Marketing Coordinator</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <div className="share-box">
-                                        <div className="share-icon"><i className="icon-26"></i></div>
-                                        <ul className="social-links clearfix">
-                                            <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        </ul>
-                                    </div>
-                                    <h3><Link href="team-details">Esther Howard</Link></h3>
-                                    <span className="designation">President of Sales</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <div className="share-box">
-                                        <div className="share-icon"><i className="icon-26"></i></div>
-                                        <ul className="social-links clearfix">
-                                            <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                            <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        </ul>
-                                    </div>
-                                    <h3><Link href="team-details">Jenny Wilson</Link></h3>
-                                    <span className="designation">Marketing Coordinator</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                </section> 
+                </section>
                 {/* team-section */}
 
             </Layout>
