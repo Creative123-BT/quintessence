@@ -288,8 +288,6 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Test Preparation">
-                {/* Minimal Breadcrumb Trail */}
-                <Breadcrumb breadcrumbTitle="Test Preparation" minimal={true} />
                 {/* Custom Premium Hero Section restored */}
                 <section className="premium-hero">
                     <div className="auto-container">
@@ -368,8 +366,12 @@ export default function Home() {
                                             borderRadius: '25px',
                                             cursor: 'pointer',
                                             transition: 'all 0.3s ease',
-                                            background: activeExam === exam.id ? '#fff200' : 'transparent',
-                                            color: activeExam === exam.id ? '#1a2737' : '#555'
+                                            background: 'transparent',
+                                            color: activeExam === exam.id ? '#1a2737' : '#555',
+                                            borderBottom: activeExam === exam.id ? '5px solid #fff200' : '5px solid transparent',
+                                            borderRadius: '0px',
+                                            transform: activeExam === exam.id ? 'translateY(-2px)' : 'none',
+                                            boxShadow: 'none'
                                         }}
                                         onClick={() => {
                                             setActiveExam(exam.id);
