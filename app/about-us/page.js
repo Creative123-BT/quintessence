@@ -210,132 +210,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="countries-style-five p_relative">
-                    <div className="pattern-layer">
-                        <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-61.png)' }}></div>
-                    </div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_60 light">
-                            <span className="sub-title">Countries We Offer</span>
-                            <h2>Apply For Quick Visa</h2>
-                        </div>
-                        <div className="row clearfix">
-                            {/* Repeat for each country block */}
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-9.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">China <span>Visa</span></Link></h5>
-                                            <span className="text">Avenue, Jersey</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-10.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">United Kingdom <span>Visa</span></Link></h5>
-                                            <span className="text">Asheville</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-11.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-8.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">Brazil <span>Visa</span></Link></h5>
-                                            <span className="text">Amsterdam</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-12.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-4.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">Australia <span>Visa</span></Link></h5>
-                                            <span className="text">Queensland</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-9.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">China <span>Visa</span></Link></h5>
-                                            <span className="text">Avenue, Jersey</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-10.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">United Kingdom <span>Visa</span></Link></h5>
-                                            <span className="text">Asheville</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-11.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-8.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">Brazil <span>Visa</span></Link></h5>
-                                            <span className="text">Amsterdam</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 countries-block">
-                                <div className="countries-block-five wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/resource/countries-12.jpg" alt="" /></figure>
-                                            <div className="flag"><img src="assets/images/icons/flag-4.png" alt="" /></div>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h5><Link href="index-4">Australia <span>Visa</span></Link></h5>
-                                            <span className="text">Queensland</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+             
                 {/* country 1 end*/}
 
                 {/* clients-section */}
@@ -353,8 +228,8 @@ export default function Home() {
                     </div>
                 </section> */}
                 {/* clients-section */}
-                {/* team-section */}
-                <section className="team-section alternat-2 p_relative centred">
+                 {/* team-section */}
+                <section className="team-section alternat-2 p_relative">
                     <div className="pattern-layer">
                         <div className="pattern-4" style={{ backgroundImage: "url(assets/images/shape/shape-30.png)" }}></div>
                         <div className="pattern-5" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
@@ -364,79 +239,111 @@ export default function Home() {
                             <span className="sub-title">Expert Team Members</span>
                             <h2>Our Team at Your Service</h2>
                         </div>
-                        <div className="row clearfix">
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="share-box">
-                                                <div className="share-icon"><i className="icon-26"></i></div>
-                                                <ul className="social-links clearfix">
-                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                                </ul>
-                                            </div>
-                                            <h3><Link href="team-details">Roman Frederick</Link></h3>
-                                            <span className="designation">Regional Manager</span>
+
+                        {/* Advisory Board Member - Anand Jagannathan */}
+                        <div
+                            className="team-member-profile wow fadeInUp animated"
+                            data-wow-delay="00ms"
+                            data-wow-duration="1500ms"
+                            style={{
+                                background: '#ffffff',
+                                borderRadius: '16px',
+                                boxShadow: '0 20px 60px rgba(0,0,0,0.08)',
+                                overflow: 'hidden'
+                            }}
+                        >
+                            <div className="row clearfix align-items-stretch">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div style={{ padding: '50px 45px' }}>
+                                        <span
+                                            style={{
+                                                display: 'inline-block',
+                                                marginBottom: '12px',
+                                                color: '#fff200',
+                                                fontWeight: '700',
+                                                letterSpacing: '1px',
+                                                textTransform: 'uppercase'
+                                            }}
+                                        >
+                                            Honourable Adviser
+                                        </span>
+                                        <h3 style={{ fontSize: '34px', lineHeight: '42px', marginBottom: '12px' }}>
+                                            Anand Jagannathan
+                                        </h3>
+                                        <p style={{ margin: 0, color: '#fff200', fontWeight: '600', fontSize: '16px', marginBottom: '24px' }}>
+                                            Site Head, Engineering Leadership — Ruckus Networks<br />
+                                            Chennai, Tamil Nadu, India
+                                        </p>
+                                        <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px', marginBottom: '24px' }}>
+                                            With over 30 years of deep expertise in networking, datacenter technologies, and embedded systems, Anand Jagannathan brings a rare blend of hands-on engineering excellence and senior leadership to our advisory board. A patent holder and distinguished technologist, he has shaped engineering strategy at the highest levels across global organisations.
+                                        </p>
+                                        <div style={{ display: 'grid', gap: '18px' }}>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                <strong>Areas of Expertise:</strong> Networking & Datacenter · Embedded Systems · Protocol Engineering · Linux & Software Development · Engineering Leadership · TCP/QoS Systems
+                                            </p>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                <strong>Career Highlights:</strong>
+                                            </p>
+                                            <ul style={{ margin: 0, paddingLeft: '24px', color: '#5f5f5f', lineHeight: '28px', fontSize: '16px' }}>
+                                                <li>Site Head, Engineering Leadership at Ruckus Networks (2021–present)</li>
+                                                <li>Head, Data Center Systems & Software at HCL Technologies (19 years)</li>
+                                                <li>Manager, Software Development at GE Capital — VSAT & satellite communication systems</li>
+                                                <li>Core team member on OPNET Modeler at Riverbed Technology</li>
+                                                <li>Holds 2 patents in network acceleration and multicast transmission</li>
+                                                <li>M.S. in Computer Science, University of North Carolina at Charlotte</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="share-box">
-                                                <div className="share-icon"><i className="icon-26"></i></div>
-                                                <ul className="social-links clearfix">
-                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                                </ul>
-                                            </div>
-                                            <h3><Link href="team-details">Jane Cooper</Link></h3>
-                                            <span className="designation">Medical Assistant</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="share-box">
-                                                <div className="share-icon"><i className="icon-26"></i></div>
-                                                <ul className="social-links clearfix">
-                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                                </ul>
-                                            </div>
-                                            <h3><Link href="team-details">Esther Howard</Link></h3>
-                                            <span className="designation">President of Sales</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="share-box">
-                                                <div className="share-icon"><i className="icon-26"></i></div>
-                                                <ul className="social-links clearfix">
-                                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                                </ul>
-                                            </div>
-                                            <h3><Link href="team-details">Jenny Wilson</Link></h3>
-                                            <span className="designation">Marketing Coordinator</span>
+                        </div>
+
+                        <div
+                            className="team-member-profile wow fadeInUp animated"
+                            data-wow-delay="00ms"
+                            data-wow-duration="1500ms"
+                            style={{
+                                background: '#ffffff',
+                                borderRadius: '16px',
+                                boxShadow: '0 20px 60px rgba(0,0,0,0.08)',
+                                overflow: 'hidden',
+                                marginTop: '30px'
+                            }}
+                        >
+                            <div className="row clearfix align-items-stretch">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div style={{ padding: '50px 45px' }}>
+                                        <span
+                                            style={{
+                                                display: 'inline-block',
+                                                marginBottom: '12px',
+                                                color: '#fff200',
+                                                fontWeight: '700',
+                                                letterSpacing: '1px',
+                                                textTransform: 'uppercase'
+                                            }}
+                                        >
+                                            Strategic Head
+                                        </span>
+                                        <h3 style={{ fontSize: '34px', lineHeight: '42px', marginBottom: '20px' }}>
+                                            Mr. Vinodh Kumar
+                                        </h3>
+                                        <div style={{ display: 'grid', gap: '18px' }}>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                Vinodh Kumar is a seasoned Career Advisor with over 7+ years of experience guiding students toward achieving their study abroad goals. His expertise lies in providing comprehensive support for overseas education, from career planning and university selection to the seamless execution of admission processes. With an in-depth understanding of global education systems and trends, Vinodh ensures that students receive tailored guidance to match their academic and career aspirations.
+                                            </p>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                As the Strategic Head of Wheelers Global, Vinodh Kumar plays a pivotal role in overseeing the entire student counseling process, including admissions, course coordination, and skill-based service delivery. His strong organizational skills and focus on process streamlining have enabled him to create a structured and supportive environment that fosters student success. Under his leadership, Wheelers Global has become synonymous with personalized guidance and integrated support, empowering students to excel in competitive global academic landscapes.
+                                            </p>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                Vinodh is known for his hands-on approach and unwavering commitment to student development. He works closely with students and their families, offering insights into emerging opportunities, educational trends, and scholarship options. His proven experience and dedication make him a trusted name in the industry.
+                                            </p>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                In addition to his professional expertise, Vinodh Kumar is passionate about learning and staying updated on current trends in education. He actively reviews various research resources to integrate the latest advancements into his counseling strategies, ensuring that students receive the most up-to-date and relevant guidance.
+                                            </p>
+                                            <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>
+                                                With a proven track record of success and an unwavering passion for student empowerment, Vinodh Kumar remains a trusted leader in the field of overseas education. His holistic approach ensures that every student receives the personalized support and expert guidance they need to turn their dreams of international education into reality.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -444,11 +351,10 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                {/* team-section */}
+
 
             </Layout>
         </>
     )
 }
-
 

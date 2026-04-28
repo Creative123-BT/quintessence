@@ -37,7 +37,7 @@ export default function Home() {
                 {/* <Passport /> */}
                 <Help />
                 <Clients />
-                <News />
+                {/* <News /> */}
                 <SpeedInsights />
                    <Analytics />
             </Layout>
