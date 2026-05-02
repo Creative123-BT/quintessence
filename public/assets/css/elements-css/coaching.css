@@ -16,13 +16,15 @@
 
 .coaching-block-one .inner-box .image-box .image{
   position: relative;
-  float: left;
-  width: 50%;
-  padding: 0px 2.5px;
+  width: 100%;
+  padding: 0px;
 }
 
 .coaching-block-one .inner-box .image-box .image img{
   width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
 }
 
 .coaching-block-one .inner-box .static-content{
@@ -85,19 +87,24 @@
 
 .coaching-block-one .inner-box .overlay-content{
   position: absolute;
-  left: 30px;
-  bottom: 0px;
-  width: calc(100% - 60px);
-  padding: 30px;
-  background: var(--main-color);
-  border-radius: 5px;
-  transform: scaleX(0);
-  transform-origin: left center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px;
+  background: rgba(26, 39, 55, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(100%);
   transition: all 500ms ease;
+  z-index: 5;
 }
 
 .coaching-block-one .inner-box:hover .overlay-content{
-  transform: scaleX(1);
+  transform: translateY(0);
 }
 
 .coaching-block-one .inner-box .overlay-content p{

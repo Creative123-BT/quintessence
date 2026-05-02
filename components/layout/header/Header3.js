@@ -30,7 +30,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     </nav>
                 </div>
                 <div className="btn-box">
-            <Link href="index-2" className="theme-btn btn-one"><span>Appointment</span></Link>
+            <Link href="/contact#contact-form" className="theme-btn btn-one"><span>Appointment</span></Link>
           </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
         </nav>
           </div>
          <div className="btn-box">
-            <Link href="index-2" className="theme-btn btn-one"><span>Appointment</span></Link>
+            <Link href="/contact#contact-form" className="theme-btn btn-one"><span>Appointment</span></Link>
           </div>
         </div>
       </div>

@@ -579,7 +579,7 @@ body {
 
  .scroll-to-top:hover {
    color: var(--main-color);
-   background: #fff200;
+   background: #f7d700;
  }
 
  .scroll-to-top .visible {

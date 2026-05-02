@@ -39,7 +39,7 @@ export default function Home() {
                 <Clients />
                 {/* <News /> */}
                 <SpeedInsights />
-                   <Analytics />
+                <Analytics />
             </Layout>
         </>
     )

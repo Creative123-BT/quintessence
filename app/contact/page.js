@@ -57,7 +57,7 @@ export default function Home() {
 
 
                     {/* Contact  Section  */}
-                    <section className="contact-style-two p_relative">
+                    <section className="contact-style-two p_relative" id="contact-form">
                         <div className="auto-container">
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

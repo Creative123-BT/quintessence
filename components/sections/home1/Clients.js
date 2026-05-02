@@ -5,28 +5,30 @@ import React from 'react';
 
 export default function Clients() {
   const logos = [
-    'clients-1.png',
-    'clients-2.png',
-    'clients-3.png',
-    'clients-4.png',
-    'clients-5.png',
-    'clients-6.png',
-    'clients-7.png',
-    'clients-8.png',
-    'clients-9.png',
-    'clients-10.png',
+    'Brown-University.png',
+    'cambridge.png',
+    'colombia.png',
+    'cornell.png',
+    'dartmouth.png',
+    'harvard.png',
+    'oxford.png',
+    'penn.png',
+    'princeton.png',
+    'singapore.png',
+    'stanford.png',
+    'Sydney.png',
+    'yale.png'
   ];
 
-  const topRow = logos.slice(0, 5);
-  const bottomRow = logos.slice(5, 10);
+  const topRow = logos.slice(0, 7);
+  const bottomRow = logos.slice(7, 13);
 
   return (
     <section className="clients-section p_relative">
       <div className="auto-container">
         <div className="inner-box p_relative pt_90">
           <div className="sec-title centred mb_50">
-            <span className="sub-title">Student-Centric
-              Top Universities</span>
+            <span className="sub-title">Student-Centric Top Universities</span>
             <h2>Where Our Students Study.</h2>
           </div>
           <div className="clients-carousel-wrap">
@@ -34,9 +36,9 @@ export default function Clients() {
               <ul className="clients-track">
                 {[...topRow, ...topRow].map((logo, index) => (
                   <li className="clients-logo-item" key={`top-${logo}-${index}`}>
-                    <Link href="/">
-                      <img src={`assets/images/clients/${logo}`} alt="University logo" />
-                    </Link>
+
+                    <img src={`assets/images/clients/${logo}`} alt="University logo" />
+
                   </li>
                 ))}
               </ul>
@@ -45,9 +47,9 @@ export default function Clients() {
               <ul className="clients-track">
                 {[...bottomRow, ...bottomRow].map((logo, index) => (
                   <li className="clients-logo-item" key={`bottom-${logo}-${index}`}>
-                    <Link href="/">
-                      <img src={`assets/images/clients/${logo}`} alt="University logo" />
-                    </Link>
+
+                    <img src={`assets/images/clients/${logo}`} alt="University logo" />
+
                   </li>
                 ))}
               </ul>
@@ -60,6 +62,7 @@ export default function Clients() {
         .clients-carousel-wrap {
           position: relative;
           overflow: hidden;
+          margin-bottom: 80px;
         }
 
         .clients-carousel-wrap::before,
@@ -118,12 +121,10 @@ export default function Clients() {
           width: 100%;
           height: auto;
           transition: transform 0.3s ease;
-          filter: grayscale(100%);
         }
 
         .clients-logo-item img:hover {
           transform: scale(1.05);
-          filter: grayscale(0);
         }
 
         @keyframes clientsSlide {

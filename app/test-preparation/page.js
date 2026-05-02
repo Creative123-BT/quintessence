@@ -368,7 +368,7 @@ export default function Home() {
                                             transition: 'all 0.3s ease',
                                             background: 'transparent',
                                             color: activeExam === exam.id ? '#1a2737' : '#555',
-                                            borderBottom: activeExam === exam.id ? '5px solid #fff200' : '5px solid transparent',
+                                            borderBottom: activeExam === exam.id ? '5px solid #f7d700' : '5px solid transparent',
                                             borderRadius: '0px',
                                             transform: activeExam === exam.id ? 'translateY(-2px)' : 'none',
                                             boxShadow: 'none'
@@ -402,7 +402,7 @@ export default function Home() {
                                             <p style={{ fontSize: '18px', lineHeight: '1.8', color: '#555' }}>{activeExamData.what}</p>
                                         </div>
                                         <div className="col-lg-4 d-none d-lg-block">
-                                        <div className="target-score-badge" style={{ background: '#fff200', padding: '25px', borderRadius: '15px', textAlign: 'center' }}>
+                                        <div className="target-score-badge" style={{ background: '#f7d700', padding: '25px', borderRadius: '15px', textAlign: 'center' }}>
                                                 <h4 style={{ margin: 0, fontSize: '14px', textTransform: 'uppercase', color: '#1a2737' }}>Target Score</h4>
                                                 <div style={{ fontSize: '28px', fontWeight: '900', color: '#1a2737' }}>{activeExamData.score.split(': ')[1]}</div>
                                             </div>
@@ -414,7 +414,7 @@ export default function Home() {
                                     {/* 2. Left Column: Structure and Audience */}
                                     <div className="col-lg-7 col-md-12 col-sm-12">
                                         <div className="detail-card info-card" style={{ background: '#fff', borderRadius: '20px', padding: '35px', marginBottom: '30px', height: '100%', boxShadow: '0 10px 40px rgba(0,0,0,0.04)' }}>
-                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '25px', borderLeft: '5px solid #fff200', paddingLeft: '15px' }}>Test Structure</h3>
+                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '25px', borderLeft: '5px solid #f7d700', paddingLeft: '15px' }}>Test Structure</h3>
                                             <div className="structure-table-wrapper" style={{ overflowX: 'auto' }}>
                                                 <table className="table table-borderless" style={{ background: '#fcfcfc', borderRadius: '12px' }}>
                                                     <thead>
@@ -434,11 +434,11 @@ export default function Home() {
                                                 </table>
                                             </div>
 
-                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginTop: '35px', marginBottom: '25px', borderLeft: '5px solid #fff200', paddingLeft: '15px' }}>Who Should Take It?</h3>
+                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginTop: '35px', marginBottom: '25px', borderLeft: '5px solid #f7d700', paddingLeft: '15px' }}>Who Should Take It?</h3>
                                             <ul className="target-list" style={{ listStyle: 'none', padding: 0 }}>
                                                 {activeExamData.who.map((item, id) => (
                                                     <li key={id} style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '15px' }}>
-                                                        <span style={{ minWidth: '24px', height: '24px', borderRadius: '50%', background: '#fff200', display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: '15px', marginTop: '3px' }}>
+                                                        <span style={{ minWidth: '24px', height: '24px', borderRadius: '50%', background: '#f7d700', display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: '15px', marginTop: '3px' }}>
                                                             <i className="fas fa-check" style={{ color: '#fff', fontSize: '10px' }}></i>
                                                         </span>
                                                         <span style={{ fontSize: '16px', color: '#444' }}>{item}</span>
@@ -451,11 +451,11 @@ export default function Home() {
                                     {/* 3. Right Column: Our Program */}
                                     <div className="col-lg-5 col-md-12 col-sm-12">
                                         <div className="detail-card program-card" style={{ background: '#1a2737', borderRadius: '20px', padding: '35px', color: '#fff', boxShadow: '0 10px 40px rgba(0,0,0,0.1)' }}>
-                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '25px', color: '#fff200' }}>Our Preparation Highlights</h3>
+                                            <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '25px', color: '#f7d700' }}>Our Preparation Highlights</h3>
                                             <ul className="program-list" style={{ listStyle: 'none', padding: 0 }}>
                                                 {activeExamData.program.map((item, id) => (
                                                     <li key={id} style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '20px', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '15px' }}>
-                                                        <i className="fas fa-arrow-right" style={{ color: '#fff200', marginTop: '5px', marginRight: '15px' }}></i>
+                                                        <i className="fas fa-arrow-right" style={{ color: '#f7d700', marginTop: '5px', marginRight: '15px' }}></i>
                                                         <span style={{ fontSize: '16px', lineHeight: '1.6' }}>{item}</span>
                                                     </li>
                                                 ))}

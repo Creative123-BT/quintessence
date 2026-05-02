@@ -372,7 +372,7 @@
     padding: 180px 0 120px 0;
     color: #1a2737;
     overflow: hidden;
-    border-bottom: 2px solid #fff200;
+    border-bottom: 2px solid #f7d700;
 }
 .premium-hero:before, .premium-hero:after {
     display: none !important;
@@ -421,7 +421,7 @@
 .premium-hero .hero-cta .btn-bt-consult,
 .btn-bt-consult {
     display: inline-block !important;
-    background: #fff200 !important;
+    background: #f7d700 !important;
     color: #1a2737 !important;
     padding: 16px 45px !important;
     border-radius: 50px !important;
@@ -432,7 +432,7 @@
     text-align: center !important;
     text-decoration: none !important;
     transition: all 0.4s ease !important;
-    box-shadow: 0 10px 30px rgba(255, 242, 0, 0.2) !important;
+    box-shadow: 0 10px 30px rgba(247, 215, 0, 0.2) !important;
 }
 .premium-hero .hero-cta .btn-bt-consult:hover,
 .btn-bt-consult:hover { 

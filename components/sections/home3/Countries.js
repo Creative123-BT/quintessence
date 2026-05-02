@@ -10,14 +10,14 @@ export default function Countries() {
         <div className="sec-title centred mb_60">
           <span className="sub-title">Countries We Offer</span>
           <h2>Global Focus
-Your Gateway to <br /> Top Study Abroad Destinations</h2>
+            Your Gateway to <br /> Top Study Abroad Destinations</h2>
         </div>
-                    <div className="content-box">
-                        {/*Theme Carousel*/}
-                        <CountriesSlider />                        
-                    </div>
-            </div>
-            </section>
-        );
-        };
+        <div className="content-box">
+          {/*Theme Carousel*/}
+          <CountriesSlider />
+        </div>
+      </div>
+    </section>
+  );
+};
 

@@ -35,7 +35,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
               </form>
             </div>
             <div className="btn-box">
-              <Link href="/"><span>Appointment</span></Link>
+              <Link href="/contact#contact-form"><span>Appointment</span></Link>
             </div>
           </div>
         </div>
