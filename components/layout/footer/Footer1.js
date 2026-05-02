@@ -20,9 +20,9 @@ export default function Footer1() {
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget logo-widget">
                   <ul className="info clearfix mb_30">
-                    <li><i className="icon-29"></i><Link href="tel:88123456987231">+88 12345 6987 231</Link></li>
-                    <li><i className="icon-1"></i><Link href="mailto:info@example.com">info@example.com</Link></li>
-                    <li><i className="icon-2"></i>380 St Kilda Road, Melbourne</li>
+                    <li><i className="icon-29"></i><Link href="tel:+919840369259">+91-9840369259</Link></li>
+                    <li><i className="icon-1"></i><Link href="mailto:support@quintessence-global.com">support@quintessence-global.com</Link></li>
+                    <li><i className="icon-2"></i>Main Square, Global City</li>
                   </ul>
                   <ul className="social-links clearfix">
                     <li><Link href="/"><i className="icon-4"></i></Link></li>

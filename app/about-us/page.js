@@ -70,23 +70,23 @@ export default function Home() {
                                     <div className="content-box ml_30">
                                         <div className="sec-title mb_25">
                                             <span className="sub-title" style={{ color: '#f7d700', fontWeight: '700', letterSpacing: '2px' }}>WHO WE ARE</span>
-                                            <h2 style={{ fontSize: '42px', lineHeight: '52px', fontWeight: '700' }}>Leading firm for <br />immigration services.</h2>
+                                            <h2 style={{ fontSize: '42px', lineHeight: '52px', fontWeight: '700' }}>Empowering Your Journey <br />to Global Education.</h2>
                                         </div>
                                         <div className="text mb_35">
-                                            <p style={{ fontSize: '17px', lineHeight: '28px', color: '#666' }}>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum. Porta semper lacus cursus, feugiat primis ultrice area ligula risus auctor tempus feugiat dolor.</p>
+                                            <p style={{ fontSize: '17px', lineHeight: '28px', color: '#666' }}>Quintessence is more than a consultancy; we are your dedicated partners in navigating the global academic landscape. With deep expertise in university selection, standardized testing, and visa processing, we provide a holistic roadmap for students aspiring to study at the world's most prestigious institutions.</p>
                                         </div>
                                         <div className="inner-box mb_45">
                                             <div className="single-item" style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
                                                 <div className="icon-box" style={{ marginRight: '15px', flexShrink: 0 }}>
                                                     <img src="assets/images/icons/icon-13.png" alt="" style={{ width: '40px' }} />
                                                 </div>
-                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Overseas education and study visa consultants.</h5>
+                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Comprehensive mentorship for global university admissions.</h5>
                                             </div>
                                             <div className="single-item" style={{ display: 'flex', alignItems: 'center' }}>
                                                 <div className="icon-box" style={{ marginRight: '15px', flexShrink: 0 }}>
                                                     <img src="assets/images/icons/icon-14.png" alt="" style={{ width: '40px' }} />
                                                 </div>
-                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Top-ranked universities guarantee admissions.</h5>
+                                                <h5 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>Strategic test preparation and profile building excellence.</h5>
                                             </div>
                                         </div>
 
@@ -107,8 +107,8 @@ export default function Home() {
                                     <div className="feature-block-one">
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-17"></i></div>
-                                            <h3><Link href="/">Visa</Link></h3>
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                                            <h3><Link href="/contact">Expert Counseling</Link></h3>
+                                            <p>Personalized guidance to find the perfect university fit for your career.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -116,8 +116,8 @@ export default function Home() {
                                     <div className="feature-block-one">
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-18"></i></div>
-                                            <h3><Link href="/">Passport</Link></h3>
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                                            <h3><Link href="/test-preparation">Test Prep Mastery</Link></h3>
+                                            <p>Comprehensive coaching for SAT, GRE, GMAT, and proficiency exams.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,8 +125,8 @@ export default function Home() {
                                     <div className="feature-block-one">
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-19"></i></div>
-                                            <h3><Link href="/">Immigration</Link></h3>
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                                            <h3><Link href="/contact">Visa Excellence</Link></h3>
+                                            <p>Strategic documentation support for seamless student visa approvals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -134,8 +134,8 @@ export default function Home() {
                                     <div className="feature-block-one">
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-20"></i></div>
-                                            <h3><Link href="/">Translation</Link></h3>
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                                            <h3><Link href="/about-us">Career Roadmap</Link></h3>
+                                            <p>Building long-term professional success beyond academic admissions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title centred mb_60">
                             <span className="sub-title">Why Choose Us</span>
-                            <h2>Offer custom-made services that <br />our customer needs.</h2>
+                            <h2>Tailored Guidance for Every <br />Student's Ambition.</h2>
                         </div>
                         <div className="row clearfix">
                             {/* Repeat for each chooseus block */}
@@ -160,8 +160,8 @@ export default function Home() {
                                 <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="icon-box"><img src="assets/images/icons/icon-1.png" alt="" /></div>
-                                        <h3>Direct Interviews</h3>
-                                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                        <h3>Personalized Strategy</h3>
+                                        <p>Custom roadmaps designed for your unique academic and career goals.</p>
 
                                     </div>
                                 </div>
@@ -170,8 +170,8 @@ export default function Home() {
                                 <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="icon-box"><img src="assets/images/icons/icon-2.png" alt="" /></div>
-                                        <h3>Faster Processing</h3>
-                                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                        <h3>Expert Mentorship</h3>
+                                        <p>Insider guidance from seasoned educators and industry leaders.</p>
 
                                     </div>
                                 </div>
@@ -180,8 +180,8 @@ export default function Home() {
                                 <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
-                                        <h3>Visa Assistance</h3>
-                                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                        <h3>High Success Rate</h3>
+                                        <p>Consistent admissions into top-tier global universities and programs.</p>
 
                                     </div>
                                 </div>
@@ -190,8 +190,8 @@ export default function Home() {
                                 <div className="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="icon-box"><img src="assets/images/icons/icon-4.png" alt="" /></div>
-                                        <h3>Cost-Effective</h3>
-                                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                                        <h3>End-to-End Support</h3>
+                                        <p>Guidance at every milestone, from selection to post-arrival orientation.</p>
 
                                     </div>
                                 </div>

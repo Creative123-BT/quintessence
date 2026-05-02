@@ -122,7 +122,7 @@ export default function Footer2() {
                 <div className="footer-bottom">
                   <div className="copyright">
                     <p>
-                      Copyright By &copy; <Link href="/">immigratie</Link> - 2024
+                      Copyright By &copy; <Link href="/">Quintessence Study Abroad</Link> - {new Date().getFullYear()}
                     </p>
                   </div>
                 </div>

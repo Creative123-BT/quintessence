@@ -64,26 +64,26 @@ export default function Home() {
                                     <div className="content-box">
                                         <div className="sec-title mb_30">
                                             <span className="sub-title">Quick Contact</span>
-                                            <h2>Have Questions? <br />Don't Hesitate to Contact Us</h2>
+                                            <h2>Have Questions? <br />Reach Out to Our Experts</h2>
                                         </div>
                                         <div className="text mb_30">
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia</p>
+                                            <p>Embarking on your international education journey can be complex. Whether you need clarity on university selection, visa processes, or financial planning, our expert counselors are ready to provide the personalized support you deserve.</p>
                                         </div>
                                         <div className="location-box pb_40 mb_40">
                                             <div className="icon-box"><i className="icon-61"></i></div>
-                                            <h3>Location</h3>
-                                            <p>141, First Floor, 12 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                            <h3>Our Location</h3>
+                                            <p>Main Square, Global City, Academic Plaza, 4th Floor.</p>
                                         </div>
                                         <div className="inner-box">
                                             <div className="row clearfix">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <div className="icon-box"><i className="icon-62"></i></div>
-                                                        <h3>Quick Contact</h3>
+                                                        <h3>Quick Connect</h3>
                                                         <ul className="info-list clearfix">
                                                             <li>
                                                                 <h5>Phone:</h5>
-                                                                <p><Link href="tel:18963648018">+1 89-636-48018</Link></p>
+                                                                <p><Link href="tel:+919840369259 ">+91-9840369259</Link></p>
                                                             </li>
                                                             <li>
                                                                 <h5>Email:</h5>
@@ -113,7 +113,6 @@ export default function Home() {
                                         <div className="sec-title mb_40">
                                             <span className="sub-title">Let's Connect</span>
                                             <h2>Send Your Message</h2>
-                                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper.</p>
                                         </div>
                                         <form onSubmit={handleSubmit} id="contact-form">
                                             <div className="row clearfix">

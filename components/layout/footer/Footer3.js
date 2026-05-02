@@ -26,15 +26,15 @@ export default function Footer3() {
                                     <ul className="info-list clearfix">
                                         <li>
                                             <div className="icon-box"><i className="icon-29"></i></div>
-                                            <p><Link href="tel:88123456987231">+88  12345   6987   231</Link></p>
+                                            <p><Link href="tel:+919840369259">+91-9840369259</Link></p>
                                         </li>
                                         <li>
                                             <div className="icon-box"><i className="icon-1"></i></div>
-                                            <p><Link href="mailto:info@example.com">info@example.com</Link></p>
+                                            <p><Link href="mailto:support@quintessence-global.com">support@quintessence-global.com</Link></p>
                                         </li>
                                         <li>
                                             <div className="icon-box"><i className="icon-2"></i></div>
-                                            <p>380 St Kilda Road, Melbourne <br />VIC 3004, Australia</p>
+                                            <p>Main Square, Global City, Academic Plaza</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -96,7 +96,7 @@ export default function Footer3() {
                 </div>
                 <div className="footer-bottom">
                 <div className="copyright">
-                    <p>Copyright By &copy; <Link href="/">immigratie</Link> - 2024</p>
+                    <p>Copyright By &copy; <Link href="/">Quintessence Study Abroad</Link> - {new Date().getFullYear()}</p>
                 </div>
                 </div>
             </div>
