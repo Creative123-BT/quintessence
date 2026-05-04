@@ -255,7 +255,7 @@ export default function Home() {
                                                 textTransform: 'uppercase'
                                             }}
                                         >
-                                            Honourable Adviser
+                                            Honorary Advisor
                                         </span>
                                         <h3 style={{ fontSize: '34px', lineHeight: '42px', marginBottom: '12px' }}>
                                             Anand Jagannathan
