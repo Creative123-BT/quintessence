@@ -26,7 +26,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
           <div className="contact-info">
             <h4>Contact Info</h4>
             <ul>
-              <li>Main Square, Global City</li>
+              <li>Plot No 20, Ambal Nagar, Chennai</li>
               <li><Link href="tel:+919840369259">+91-9840369259</Link></li>
               <li><Link href="mailto:support@quintessence-global.com">support@quintessence-global.com</Link></li>
             </ul>

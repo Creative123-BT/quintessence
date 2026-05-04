@@ -72,7 +72,7 @@ export default function Home() {
                                         <div className="location-box pb_40 mb_40">
                                             <div className="icon-box"><i className="icon-61"></i></div>
                                             <h3>Our Location</h3>
-                                            <p>Main Square, Global City, Academic Plaza, 4th Floor.</p>
+                                            <p>Plot Number 20, Ambal Nagar, Pallikaranai, Chennai 600100</p>
                                         </div>
                                         <div className="inner-box">
                                             <div className="row clearfix">
@@ -135,6 +135,10 @@ export default function Home() {
                                                         <option value="uk">UK</option>
                                                         <option value="canada">Canada</option>
                                                         <option value="australia">Australia</option>
+                                                        <option value="germany">Germany</option>
+                                                        <option value="singapore">Singapore</option>
+                                                        <option value="others">Others</option>
+
                                                     </select>
                                                 </div>
                                                 <div className="col-lg-4 col-md-6 col-sm-12 form-group">
@@ -184,7 +188,7 @@ export default function Home() {
                         {/*Map Outer*/}
                         <div className="auto-container">
                             <div className="map-inner p_relative d_block">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa K?!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={400} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d743.2391155708051!2d80.19721347621446!3d12.935719797430123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU2JzA3LjkiTiA4MMKwMTEnNDkuMCJF!5e1!3m2!1sen!2sin!4v1777879155347!5m2!1sen!2sin" height={450} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                             </div>
                         </div>
                     </section>
@@ -195,38 +199,72 @@ export default function Home() {
                             style={{
                                 position: "fixed",
                                 inset: 0,
-                                backgroundColor: "rgba(0, 0, 0, 0.55)",
+                                backgroundColor: "rgba(26, 39, 55, 0.85)",
+                                backdropFilter: "blur(8px)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
                                 zIndex: 99999,
                                 padding: "20px",
+                                animation: "fadeIn 0.3s ease-out"
                             }}
                             onClick={() => setShowThankYouPopup(false)}
                         >
                             <div
                                 style={{
                                     width: "100%",
-                                    maxWidth: "480px",
-                                    background: "#fff",
-                                    borderRadius: "14px",
-                                    padding: "28px 24px",
+                                    maxWidth: "450px",
+                                    background: "#ffffff",
+                                    borderRadius: "24px",
+                                    padding: "40px 30px",
                                     textAlign: "center",
-                                    boxShadow: "0 20px 50px rgba(0,0,0,0.2)",
+                                    boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+                                    position: "relative",
+                                    overflow: "hidden"
                                 }}
                                 onClick={(event) => event.stopPropagation()}
                             >
-                                <h3 style={{ marginBottom: "12px", color: "#1a2737" }}>Thank You</h3>
-                                <p style={{ marginBottom: "20px", color: "#5f6f84" }}>
-                                    Your message has been submitted successfully. We will get back to you soon.
+                                {/* Brand Accent Line */}
+                                <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "6px", background: "#f7d700" }}></div>
+                                
+                                <div style={{ 
+                                    width: "80px", 
+                                    height: "80px", 
+                                    backgroundColor: "rgba(247, 215, 0, 0.15)", 
+                                    borderRadius: "50%", 
+                                    display: "flex", 
+                                    alignItems: "center", 
+                                    justifyContent: "center", 
+                                    margin: "0 auto 24px" 
+                                }}>
+                                    <i className="fas fa-check" style={{ fontSize: "32px", color: "#f7d700" }}></i>
+                                </div>
+
+                                <h2 style={{ 
+                                    fontSize: "32px", 
+                                    fontWeight: "700", 
+                                    color: "#1a2737", 
+                                    marginBottom: "16px",
+                                    fontFamily: "var(--title-font)"
+                                }}>Message Sent!</h2>
+                                
+                                <p style={{ 
+                                    fontSize: "17px", 
+                                    lineHeight: "1.6", 
+                                    color: "#5f6f84", 
+                                    marginBottom: "30px" 
+                                }}>
+                                    Thank you for reaching out. One of our expert counselors will review your details and get back to you shortly.
                                 </p>
+                                
                                 <button
                                     type="button"
                                     className="theme-btn btn-two"
+                                    style={{ width: "100%", padding: "15px 30px" }}
                                     onClick={() => setShowThankYouPopup(false)}
                                 >
-                                    <span>Close</span>
-                                </button>b
+                                    <span>Back to Website</span>
+                                </button>
                             </div>
                         </div>
                     ) : null}

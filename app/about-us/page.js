@@ -258,7 +258,7 @@ export default function Home() {
                                             Honorary Advisor
                                         </span>
                                         <h3 style={{ fontSize: '34px', lineHeight: '42px', marginBottom: '12px' }}>
-                                            Anand Jagannathan
+                                            Mr.Anand Jagannathan
                                         </h3>
                                         <p style={{ margin: 0, color: '#f7d700', fontWeight: '600', fontSize: '16px', marginBottom: '24px' }}>
                                             Site Head, Engineering Leadership — Ruckus Networks<br />
@@ -316,7 +316,7 @@ export default function Home() {
                                             Strategic Head
                                         </span>
                                         <h3 style={{ fontSize: '34px', lineHeight: '42px', marginBottom: '20px' }}>
-                                            Mr. Vinodh Kumar
+                                            Vinodh Kumar
                                         </h3>
                                         <div style={{ display: 'grid', gap: '18px' }}>
                                             <p style={{ margin: 0, color: '#5f5f5f', lineHeight: '30px', fontSize: '16px' }}>

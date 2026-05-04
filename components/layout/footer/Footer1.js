@@ -22,7 +22,7 @@ export default function Footer1() {
                   <ul className="info clearfix mb_30">
                     <li><i className="icon-29"></i><Link href="tel:+919840369259">+91-9840369259</Link></li>
                     <li><i className="icon-1"></i><Link href="mailto:support@quintessence-global.com">support@quintessence-global.com</Link></li>
-                    <li><i className="icon-2"></i>Main Square, Global City</li>
+                    <li><i className="icon-2"></i>Plot Number 20, Ambal Nagar, Pallikaranai, Chennai 600100</li>
                   </ul>
                   <ul className="social-links clearfix">
                     <li><Link href="/"><i className="icon-4"></i></Link></li>

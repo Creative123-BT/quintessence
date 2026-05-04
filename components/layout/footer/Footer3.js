@@ -34,7 +34,7 @@ export default function Footer3() {
                                         </li>
                                         <li>
                                             <div className="icon-box"><i className="icon-2"></i></div>
-                                            <p>Main Square, Global City, Academic Plaza</p>
+                                            <p>Plot Number 20, Ambal Nagar, Pallikaranai, Chennai 600100</p>
                                         </li>
                                     </ul>
                                 </div>

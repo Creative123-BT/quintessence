@@ -14,7 +14,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
               <div className="top-left">
                 <ul className="info clearfix">
                   <li><i className="icon-1"></i><Link href="mailto:support@quintessence-global.com">support@quintessence-global.com</Link></li>
-                  <li><i className="icon-2"></i>Main Square, Global City</li>
+                  <li><i className="icon-2"></i>Plot No 20, Ambal Nagar, Chennai</li>
                   <li><i className="icon-3"></i>Mon - Sat: 9.00 to 18.00</li>
                 </ul>
               </div>
